@@ -161,7 +161,7 @@
 
 
 
-<!--=================Overview of UniPose==========================-->
+<!--=================Overview of Dataset==========================-->
 <section class="section" >
   <div class="container">
     <div class="columns is-centered has-text-centered">
@@ -189,26 +189,32 @@ movement between two consecutive states.
 </section>
 
 
-
-<section class="section">
+<!--=================Overview of Task==========================-->
+<section class="section" >
   <div class="container">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Overview: A Generalist Keypoint Detector</h2>
+        <h2 class="title is-3">The Proposed Tasks </h2>
+        <!-- <h2 class="subtitle has-text-centered">We use eight metrics covering four aspects: structure distance, background preservation, edit prompt-image consistency, and inference time.</h2> -->
+        <div class="content has-text-justified">
+          <div style="text-align: center; vertical-align:middle">
+            <img src="figures/task.png" width="600">
+          </div>
 
-        <!-- 第一句话，已加粗 -->
-        <p class="paragraph"><span class="dot">&#8226;</span> <span style="font-weight: bold;">UniPose is the first end-to-end prompt-based keypoint detection framework.</span></p>
+          <!-- 第一句话，已加粗并且字体更大 -->
+          <p style="font-size: 1.2em; font-weight: bold; font-style: italic">
+           </span> we define three new
+state-level HOI tasks from the perspectives of understanding, reasoning, and generation, to demonstrate fine-grained semantic-aligned HOI modeling.
 
-        <!-- 第二句话，已加粗 -->
-        <p class="paragraph"><span class="dot">&#8226;</span> <span style="font-weight: bold;">UniPose could support visual or textual prompts for any articulated, rigid, and soft objects.</span></p>
-
-        <!-- 第三句话，已加粗 -->
-        <p class="paragraph"><span class="dot">&#8226;</span> <span style="font-weight: bold;">UniPose has strong fine-grained localization and generalization abilities across image styles, categories, and poses.</span></p>
-      
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
 
 
 
@@ -280,7 +286,7 @@ HOI states with fine-grained semantic descriptions, adeptly tackling understandi
         <!-- <h2 class="subtitle has-text-centered">We use eight metrics covering four aspects: structure distance, background preservation, edit prompt-image consistency, and inference time.</h2> -->
         <div class="content has-text-justified">
           <div style="text-align: center; vertical-align:middle">
-            <img src="figures/model.png" width="1024">
+            <img src="figures/model.png" width="600">
           </div>
 
           <!-- 修改后的文本，字体大小增大 -->
@@ -308,7 +314,7 @@ tasks, covering understanding, reasoning, generation and reconstruction tasks.
         <h2 class="title is-3">Results</h2>
         <div class="content has-text-justified">
           <div style="text-align: center; vertical-align:middle">
-            <img src="figures/result.png" width="1024">
+            <img src="figures/result.png" width="600">
           </div>
     </div>
   </div>
